@@ -1,0 +1,7 @@
+package gclab.lab71;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface GradesRepository extends MongoRepository<Grade, String> {
+
+}

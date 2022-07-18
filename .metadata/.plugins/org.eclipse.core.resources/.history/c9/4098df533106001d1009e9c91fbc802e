@@ -1,0 +1,27 @@
+package gclab.lab71;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document("grades")
+public class Grade {
+
+	@Id
+	private String Id;
+	private String name;
+	private String type;
+	private double score;
+	private double total;
+	
+	public Grade(String id, String name, String type, double score, double total) {
+		Id = id;
+		this.name = name;
+		this.type = type;
+		this.score = score;
+		this.total = total;
+	}
+
+	public Grade() {
+	}
+	
+	
+}

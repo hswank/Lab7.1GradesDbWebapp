@@ -1,0 +1,2 @@
+spring.data.mongodb.uri=mongodb+srv://hswank:aurora4512@cluster1.kbywr.mongodb.net/springlabdb
+spring.data.mongodb.database=springlabdb
